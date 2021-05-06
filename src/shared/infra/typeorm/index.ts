@@ -13,3 +13,11 @@ export default async (name = 'default'): Promise<Connection> => {
     }),
   );
 };
+
+/**
+ * Migrations
+ * yarn typeorm migration:create -n CreateAppointments
+ * yarn typeorm migration:run
+ * yarn typeorm migration:revert
+ * yarn typeorm migration:show
+ */
